@@ -210,7 +210,7 @@ export default function Home() {
         </div>
       </section>
       {/* ===== PERGUNTAS FREQUENTES ===== */}
-      <section className="flex flex-col justify-center items-center py-10 px-5 md:py-16 md:px-6 gap-8 text-center">
+      <section id="perguntas-frequentes" className="flex flex-col justify-center items-center py-10 px-5 md:py-16 md:px-6 gap-8 text-center">
         <h2 className="text-[#333] font-bold text-heading-lg md:text-5xl">Perguntas Frequentes</h2>
         <Image src={Asks} alt="Perguntas Frequentes" className="hidden md:block" />
         <Image src={CardsVerticais} alt="" className="block md:hidden" />
@@ -227,9 +227,9 @@ export default function Home() {
 
       {/* ===== FOOTER ===== */}
       <footer className="bg-[#275C52] w-full flex flex-col items-center gap-4 py-8 md:py-10 px-3 
-        md:px-6 rounded-t-[40px] text-center"
+        md:px-6 rounded-t-[20px] md:rounded-t-[40px] text-center"
       >
-        <h2 className="text-white font-bold text-heading-lg md:text-5xl">Fale conosco</h2>
+        <h2 className="text-white font-bold text-heading-xl md:text-4xl">Fale conosco</h2>
 
         <div className="flex flex-col gap-3 text-white items-center">
           <div className="flex items-center gap-3">
